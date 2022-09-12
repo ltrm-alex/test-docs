@@ -1,6 +1,6 @@
-* Getting started
+* Getting Started
 
-  * [Quick start](quickstart.md)
-  * [General troubleshooting](troubleshooting.md)
+  * [Quick Start](quickstart.md)
+  * [General Troubleshooting](troubleshooting.md)
 
 * Work In Progress
