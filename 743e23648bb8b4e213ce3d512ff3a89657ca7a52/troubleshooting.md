@@ -1,7 +1,5 @@
 # General Troubleshooting
 
-## Automated DAQ System
-
 > Mux Board Revision: **0.4**  
 > MCU: **M5STAMP-C3 K056**
 
