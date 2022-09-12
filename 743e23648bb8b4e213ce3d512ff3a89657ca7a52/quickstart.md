@@ -33,7 +33,7 @@
 
 1. Prepare the testbench according to the testbench connection map or `SETUP.md` file in the `docs` subfolder (the full path for which would be `~/Documents/LT1234/ESD/docs` following the previous examples). Make sure the mux controller and all relevant benchtop instruments are connected and powered on.
 
-?> You can quickly reveal a folder or file in `File Explorer` from `Visual Studio Code` by **right-clicking** the desired folder or file in `Visual Studio Code` and then clicking `Reveal in Explorer`.
+  ?> You can quickly reveal a folder or file in `File Explorer` from `Visual Studio Code` by **right-clicking** the desired folder or file in `Visual Studio Code` and then clicking `Reveal in Explorer`.
 
 1. Click the `▶` icon in the top-right of the `Visual Studio Code` window to begin running an instance of the test program. All ESD and HTOL test program instances will automatically create a new Excel workbook named in a similar format to `LT1234 2022-11-30 15-20.xlsx` under the `results` subfolder to store the acquired data.
 
@@ -41,10 +41,10 @@
 
 1. Once the prompt for command input appears in the `Terminal` (for example, `"Press return to continue"` or `"Command [continue]:"`), follow the onscreen instructions to test each DUT.
 
-?> For certain parts' test programs, you may press `Ctrl`+`C` at any time while the program is running to cancel data acquisition for the current DUT, return to the command input prompt, and retry the test for that DUT. Please refer to the part-specific guides for whether this applies to you.  
+  ?> For certain parts' test programs, you may press `Ctrl`+`C` at any time while the program is running to cancel data acquisition for the current DUT, return to the command input prompt, and retry the test for that DUT. Please refer to the part-specific guides for whether this applies to you.
+
   !> If your part's test program does not have this retry testing functionality, pressing `Ctrl`+`C` instantly kills the test program instance, effectively doing the same thing as killing the Terminal. If the instance is forcefully stopped while it is writing data to the results file, the results file may be corrupted and data will be lost!
 
 1. When the test program is either commanded to `stop` or the number of devices tested has reached the configured `dut_qty` (if applicable), the test program will proceed to write a `Statistics` sheet and `All Devices` summary sheet and may reset or power off the benchtop instruments before the test program instance ends.
 
-!> Since results workbooks are named by the minute during which the test program instance is created, if the instance is stopped or killed and another instance of the test program is run within the same minute, the new instance will overwrite all data saved by the previous instance!
-
+  !> Since results workbooks are named by the minute during which the test program instance is created, if the instance is stopped or killed and another instance of the test program is run within the same minute, the new instance will overwrite all data saved by the previous instance!
