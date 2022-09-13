@@ -18,3 +18,7 @@
   
     * [ESD/LU](lt9104/esd-lu.md)
     * [HTOL](lt9104/htol.md)
+
+* Advanced
+
+  * [Flashing Mux Controller Firmware](flashing.md)
