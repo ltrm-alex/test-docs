@@ -29,13 +29,13 @@ The following procedures assume you have **PlatformIO** installed in **Visual St
 
 1. Click `Open "Mux Controller"`.
 
-  ?> If you recently opened the "Mux Controller" project, you can simply click `Open` for the "Projects\Mux Controller" entry under the `Actions` column of the `Recent Projects` section at the bottom of the `PIO Home` page.
+  ?> If you recently opened the "Mux Controller" project, you can simply click `Open` under the `Actions` column for the "Projects\Mux Controller" entry of the `Recent Projects` section at the bottom of the `PIO Home` page.
 
 1. Click the `main.cpp` source file under the `src` subfolder to open it in the editor.
 
 1. Edit line 28 to assign a unique hostname to the device being flashed (for example, `#define HOSTNAME "mux3"`). At the time of writing, "mux1" and "mux2" are already in use.
 
-1. _(Optional)_ Click `Default (Mux Controller)` in the **Status Bar** at the bottom of the VS Code window to switch to a different PlatformIO Project Environment and explicitly specify a platform to target (M5STAMP-C3 or Arduino MEGA 2560). The Mux Controller project is configured to target the M5STAMP-C3 by default.
+1. (Optional) Click `Default (Mux Controller)` in the **Status Bar** at the bottom of the VS Code window to switch to a different PlatformIO Project Environment and explicitly specify a platform to target (M5STAMP-C3 or Arduino MEGA 2560). The Mux Controller project is configured to target the M5STAMP-C3 by default.
 
 1. Connect the target MCU to the computer via USB.
 
