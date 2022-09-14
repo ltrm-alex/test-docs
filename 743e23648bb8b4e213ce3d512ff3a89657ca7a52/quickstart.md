@@ -45,6 +45,4 @@
 
   !> If your part's test program does not have this retry testing functionality, pressing `Ctrl`+`C` instantly kills the test program instance, effectively doing the same thing as killing the Terminal. If the instance is forcefully stopped while it is writing data to the results file, the results file may be corrupted and data will be lost!
 
-1. When the test program is either commanded to `stop` or the number of devices tested has reached the configured `dut_qty` (if applicable), the test program will proceed to write a `Statistics` sheet and `All Devices` summary sheet and may reset or power off the benchtop instruments before the test program instance ends.
-
-  !> Since results workbooks are named by the minute during which the test program instance is created, if the instance is stopped or killed and another instance of the test program is run within the same minute, the new instance will overwrite all data saved by the previous instance!
+1. When the test program is either commanded to `stop` or the number of devices tested has reached the configured `dut_qty`, the test program will write a `Statistics` sheet, may write a `All Devices` summary sheet, and may reset or power off the benchtop instruments before the test program instance ends.
